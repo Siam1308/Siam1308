@@ -16,5 +16,15 @@ int main(void)
 
     printf("feet = %f\n", feet);
 
+    printf("Convert feet to inches\n");
+
+    {
+        printf("Input Length in feet: ");
+        scanf("%f", & feet);
+    }
+
+     inches = feet * 12 ;
+
+    printf("inches = %d\n", inches);
+
     return 0;
-}
